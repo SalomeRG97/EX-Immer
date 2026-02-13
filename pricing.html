@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Ex-Immer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 48px;
+        }
+
+        .pricing-table th,
+        .pricing-table td {
+            padding: 24px;
+            text-align: center;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .pricing-table th {
+            text-align: left;
+            font-weight: 500;
+            color: var(--color-text-secondary);
+        }
+
+        .pricing-table th.plan-header {
+            text-align: center;
+            font-weight: 700;
+            color: var(--color-text-main);
+            font-size: 1.25rem;
+        }
+
+        .pricing-row-header {
+            text-align: left !important;
+            font-weight: 600;
+            color: var(--color-text-main);
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-text-main);
+            margin-bottom: 4px;
+        }
+
+        .price-sub {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">Ex-Immer</a>
+            <div class="nav-links hidden-mobile">
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="use-cases.html" class="nav-link">Use Cases</a>
+                <a href="pricing.html" class="nav-link" style="color: var(--color-accent);">Pricing</a>
+                <a href="demo.html" class="nav-link btn btn-primary"
+                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="section" style="padding-top: 160px;">
+            <div class="container text-center">
+                <h1 class="mb-lg">Transparent Pricing</h1>
+                <p style="max-width: 600px; margin: 0 auto; font-size: 1.25rem;">
+                    Scalable solutions for projects of any size.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="card" style="padding: 0; overflow: hidden; border: 1px solid var(--color-border);">
+                    <table class="pricing-table" style="margin-top: 0;">
+                        <thead>
+                            <tr style="background-color: var(--color-bg-alt);">
+                                <th style="width: 25%;"></th>
+                                <th class="plan-header">Starter</th>
+                                <th class="plan-header" style="color: var(--color-accent);">Pro</th>
+                                <th class="plan-header">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="pricing-row-header">Setup Fee</td>
+                                <td>
+                                    <div class="price">$6k – $12k</div>
+                                    <div class="price-sub">One-time</div>
+                                </td>
+                                <td>
+                                    <div class="price">$15k – $30k</div>
+                                    <div class="price-sub">One-time</div>
+                                </td>
+                                <td>
+                                    <div class="price">$30k+</div>
+                                    <div class="price-sub">One-time</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pricing-row-header">Monthly Subscription</td>
+                                <td>
+                                    <div class="price">$300 – $500</div>
+                                    <div class="price-sub">Per project</div>
+                                </td>
+                                <td>
+                                    <div class="price">$600 – $1,200</div>
+                                    <div class="price-sub">Per project</div>
+                                </td>
+                                <td>
+                                    <div class="price">$1,500+</div>
+                                    <div class="price-sub">Per project</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pricing-row-header">Ideal For</td>
+                                <td style="color: var(--color-text-secondary);">Single Family Homes</td>
+                                <td style="color: var(--color-text-secondary);">Mid-Rise Condo</td>
+                                <td style="color: var(--color-text-secondary);">Masterplans & Towers</td>
+                            </tr>
+                            <tr>
+                                <td class="pricing-row-header">Features</td>
+                                <td style="font-size: 0.9rem; color: var(--color-text-secondary);">
+                                    Basic Virtual Tour<br>
+                                    Standard Hosting
+                                </td>
+                                <td style="font-size: 0.9rem; color: var(--color-text-secondary);">
+                                    Full Digital Twin<br>
+                                    Unit Configurator<br>
+                                    Advanced Analytics
+                                </td>
+                                <td style="font-size: 0.9rem; color: var(--color-text-secondary);">
+                                    Custom Integrations<br>
+                                    VR Showroom Setup<br>
+                                    Dedicated Success Manager
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="demo.html" class="btn btn-secondary"
+                                        style="font-size: 0.85rem; padding: 8px 16px;">Get Started</a></td>
+                                <td><a href="demo.html" class="btn btn-primary"
+                                        style="font-size: 0.85rem; padding: 8px 16px;">Get Started</a></td>
+                                <td><a href="contact.html" class="btn btn-secondary"
+                                        style="font-size: 0.85rem; padding: 8px 16px;">Contact Sales</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center mt-lg" style="color: var(--color-text-secondary); font-size: 0.9rem;">
+                    * Enterprise plans available on request. <a href="contact.html"
+                        style="text-decoration: underline;">Contact us</a> for custom needs.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="color: var(--color-text-secondary);">&copy; 2026 Ex-Immer.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

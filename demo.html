@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Demo | Ex-Immer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            font-family: var(--font-main);
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">Ex-Immer</a>
+            <div class="nav-links hidden-mobile">
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="use-cases.html" class="nav-link">Use Cases</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="demo.html" class="nav-link btn btn-primary"
+                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="section" style="padding-top: 120px; padding-bottom: 40px;">
+            <div class="container text-center">
+                <h1 class="mb-lg">Experience a real estate project <br> <span style="color: var(--color-accent);">before
+                        it exists.</span></h1>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="grid grid-12" style="gap: 64px;">
+
+                    <div style="grid-column: span 7; display: flex; flex-direction: column; gap: 24px;">
+                        <!-- Interactive Placeholder -->
+                        <div
+                            style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius-md); position: relative; overflow: hidden; box-shadow: var(--shadow-lg);">
+                            <img src="images/virtual-showroom.png" alt="Demo Video"
+                                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                            <div
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3);">
+                                <div style="color: white; text-align: center;">
+                                    <div
+                                        style="font-size: 4rem; text-shadow: 0 4px 12px rgba(0,0,0,0.5); cursor: pointer;">
+                                        ▶</div>
+                                    <div style="font-weight: 500; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Click to see
+                                        interactive demo</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="color: var(--color-text-secondary);">
+                            Watch how we transform 2D plans into fully immersive 3D sales environments.
+                        </p>
+                    </div>
+
+                    <div style="grid-column: span 5;">
+                        <div class="card" style="box-shadow: var(--shadow-lg); border: none;">
+                            <h2 class="mb-lg">Schedule a Walkthrough</h2>
+                            <form action="#" method="POST">
+                                <label class="form-label" for="name">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Jane Doe"
+                                    required>
+
+                                <label class="form-label" for="company">Company</label>
+                                <input type="text" id="company" name="company" class="form-input"
+                                    placeholder="Acme Developments" required>
+
+                                <label class="form-label" for="email">Work Email</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="jane@company.com" required>
+
+                                <label class="form-label" for="stage">Project Stage</label>
+                                <select id="stage" name="stage" class="form-input">
+                                    <option value="" disabled selected>Select stage...</option>
+                                    <option value="planning">Planning / Permitting</option>
+                                    <option value="presales">Pre-sales (Launching soon)</option>
+                                    <option value="construction">Under Construction</option>
+                                    <option value="completed">Completed / Inventory</option>
+                                </select>
+
+                                <button type="submit" class="btn btn-primary"
+                                    style="width: 100%; font-size: 1.1rem;">Request Demo</button>
+                                <p class="mt-md text-center"
+                                    style="font-size: 0.8rem; color: var(--color-text-secondary);">
+                                    We typically respond within 2 hours.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="color: var(--color-text-secondary);">&copy; 2026 Ex-Immer.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

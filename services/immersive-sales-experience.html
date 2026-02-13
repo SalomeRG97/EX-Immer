@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Sales Experience™ | Ex-Immer Services</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="nav-logo">Ex-Immer</a>
+            <div class="nav-links hidden-mobile">
+                <a href="../services.html" class="nav-link">Services</a>
+                <a href="../use-cases.html" class="nav-link">Use Cases</a>
+                <a href="../pricing.html" class="nav-link">Pricing</a>
+                <a href="../demo.html" class="nav-link btn btn-primary"
+                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="section" style="padding-top: 100px; padding-bottom: 40px;">
+            <div class="container">
+                <a href="../services.html" class="mb-md" style="display: block; color: var(--color-text-secondary);">←
+                    Back to Services</a>
+
+                <img src="../images/immersive.png" alt="Immersive Sales Experience" class="fade-in"
+                    style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
+
+                <h1 class="mb-sm" style="font-size: 3rem;">Immersive Sales Experience™</h1>
+                <p style="font-size: 1.5rem; color: var(--color-text-secondary); max-width: 800px;">
+                    Physical showroom tech. Transform your sales gallery with cutting-edge immersion.
+                </p>
+            </div>
+        </section>
+
+        <!-- Content Split -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="grid grid-12" style="grid-template-columns: repeat(12, 1fr); gap: 48px;">
+
+                    <div style="grid-column: span 8;">
+                        <!-- Value Propositions -->
+                        <div class="mb-xl">
+                            <h2 class="mb-md">Visual Perfection</h2>
+                            <div class="grid"
+                                style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+                                <div>
+                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Product Modeling</h3>
+                                    <p style="font-size: 0.95rem;">Faithful 3D modeling that captures every intricate
+                                        detail of furniture, enhancing brand awareness through realism.</p>
+                                </div>
+                                <div>
+                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Lifestyle Scenes</h3>
+                                    <p style="font-size: 0.95rem;">Immersive lifestyle scenes that reflect your unique
+                                        universe, allowing customers to project themselves into the space.</p>
+                                </div>
+                                <div>
+                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Multimedia & Interaction</h3>
+                                    <p style="font-size: 0.95rem;">Engaging video animations and interactive 360°
+                                        viewers that connect your audience deeply with your brand.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+                        <!-- Services Grid -->
+                        <h2 class="mb-md">Our Specialized Services</h2>
+                        <div class="grid"
+                            style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+
+                            <!-- 1 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="4K Touch Wall Software"
+                                data-desc="Control the entire presentation from a massive screen, engaging buyers with tactile interactivity."
+                                data-gallery='["../images/immersive.png", "../images/digital-twin.png", "../images/rendering.png"]'>
+                                <img src="../images/immersive.png" alt="Touch Wall Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">01</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">4K Touch Wall Software</h3>
+                                <p style="font-size: 0.95rem;">Control presentations from a massive touch screen.</p>
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="VR Headset Integration"
+                                data-desc="Deep immersion for specific unit walkthroughs, transporting buyers directly into their future home."
+                                data-gallery='["../images/rendering.png", "../images/hero.png", "../images/virtual-showroom.png"]'>
+                                <img src="../images/rendering.png" alt="VR Integration Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">02</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">VR Headset Integration</h3>
+                                <p style="font-size: 0.95rem;">Deep immersion with VR headset support.</p>
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="Multi-user Tools"
+                                data-desc="Allow families to explore together on large screens, facilitating collaborative decision making."
+                                data-gallery='["../images/digital-twin.png", "../images/immersive.png", "../images/sun-simulation.png"]'>
+                                <img src="../images/digital-twin.png" alt="Multi-user Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">03</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">Multi-user Tools</h3>
+                                <p style="font-size: 0.95rem;">Collaborative exploration for families.</p>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="Physical Scale Models"
+                                data-desc="Augmented reality overlays for physical scale models to show unit availability and details."
+                                data-gallery='["../images/unit-configurator.png", "../images/hero.png", "../images/rendering.png"]'>
+                                <img src="../images/unit-configurator.png" alt="Scale Models Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">04</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">Physical Scale Models</h3>
+                                <p style="font-size: 0.95rem;">AR overlays for physical architectural models.</p>
+                            </div>
+
+                            <!-- 5 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="Interactive Lighting"
+                                data-desc="Control showroom lighting to match the mood of the presentation or time of day."
+                                data-gallery='["../images/sun-simulation.png", "../images/virtual-showroom.png", "../images/rendering.png"]'>
+                                <img src="../images/sun-simulation.png" alt="Lighting Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">05</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">Interactive Lighting</h3>
+                                <p style="font-size: 0.95rem;">Smart lighting control for ambiance.</p>
+                            </div>
+
+                            <!-- 6 -->
+                            <div class="service-item" onclick="openGallery(this)" data-title="Tablet Control"
+                                data-desc="Sales agents can control the entire experience from a handheld tablet moving with the client."
+                                data-gallery='["../images/hero.png", "../images/immersive.png", "../images/digital-twin.png"]'>
+                                <img src="../images/hero.png" alt="Tablet Control Preview">
+                                <span
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">06</span>
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">Tablet Control</h3>
+                                <p style="font-size: 0.95rem;">Seamless control via handheld tablets.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div style="grid-column: span 4;">
+                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
+                            <h3 class="mb-md">Why Choose Us?</h3>
+                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Affordable prices</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Quality implementation</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Quick turnaround time & feedback</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Wide range of services</span>
+                                </li>
+                            </ul>
+                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="color: var(--color-text-secondary);">&copy; 2026 Ex-Immer Real Estate.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <!-- Service Detail Modal + Carousel -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-media-container" id="modalMedia">
+                <!-- Media will be injected here -->
+            </div>
+            <div class="modal-body">
+                <h2 id="modalTitle" class="mb-md">Service Title</h2>
+                <p id="modalDesc">Service description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("serviceModal");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalDesc = document.getElementById("modalDesc");
+        const modalMediaContainer = document.getElementById("modalMedia");
+        const closeBtn = document.getElementsByClassName("close-modal")[0];
+
+        let currentGallery = [];
+        let currentSlideIndex = 0;
+
+        function openGallery(element) {
+            const title = element.getAttribute('data-title');
+            const desc = element.getAttribute('data-desc');
+            const galleryData = element.getAttribute('data-gallery');
+
+            modalTitle.innerText = title;
+            modalDesc.innerText = desc;
+
+            // Parse gallery data
+            try {
+                currentGallery = JSON.parse(galleryData) || [];
+            } catch (e) {
+                console.error("Error parsing gallery data", e);
+                currentGallery = [];
+            }
+
+            currentSlideIndex = 0;
+            renderCarousel();
+
+            modal.style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }
+
+        function renderCarousel() {
+            modalMediaContainer.innerHTML = '';
+
+            if (currentGallery.length === 0) {
+                modalMediaContainer.innerHTML = '<div style="color:white; display:flex; align-items:center; justify-content:center; height:100%;">No media available</div>';
+                return;
+            }
+
+            // Carousel Container
+            const carouselContainer = document.createElement('div');
+            carouselContainer.className = 'carousel-container';
+
+            // Slides
+            currentGallery.forEach((item, index) => {
+                let slide;
+
+                // Check if item is an object (iframe) or string (image)
+                if (typeof item === 'object' && item.type === 'iframe') {
+                    slide = document.createElement('iframe');
+                    slide.src = item.src;
+                    if (item.id) slide.id = item.id;
+                    if (item.name) slide.name = item.name;
+                    slide.frameBorder = "0";
+                    slide.width = "100%";
+                    slide.height = "100%";
+                    slide.scrolling = "no";
+                    slide.allow = "vr; xr; accelerometer; gyroscope; autoplay; fullscreen";
+                    slide.setAttribute('allowFullScreen', 'true');
+                    slide.setAttribute('webkitallowfullscreen', 'true');
+                    slide.setAttribute('mozallowfullscreen', 'true');
+                    slide.className = index === 0 ? 'carousel-slide active' : 'carousel-slide';
+                } else {
+                    slide = document.createElement('img');
+                    slide.src = typeof item === 'string' ? item : item.src;
+                    slide.className = index === 0 ? 'carousel-slide active' : 'carousel-slide';
+                    slide.alt = `Slide ${index + 1}`;
+                    slide.style.objectFit = "contain";
+                }
+
+                carouselContainer.appendChild(slide);
+            });
+
+            // Controls (only if more than 1 image)
+            if (currentGallery.length > 1) {
+                const prevBtn = document.createElement('button');
+                prevBtn.className = 'carousel-btn prev-btn';
+                prevBtn.innerHTML = '&#10094;';
+                prevBtn.onclick = (e) => { e.stopPropagation(); changeSlide(-1); };
+
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'carousel-btn next-btn';
+                nextBtn.innerHTML = '&#10095;';
+                nextBtn.onclick = (e) => { e.stopPropagation(); changeSlide(1); };
+
+                carouselContainer.appendChild(prevBtn);
+                carouselContainer.appendChild(nextBtn);
+
+                // Indicators
+                const indicators = document.createElement('div');
+                indicators.className = 'carousel-indicators';
+                currentGallery.forEach((_, index) => {
+                    const dot = document.createElement('div');
+                    dot.className = index === 0 ? 'indicator active' : 'indicator';
+                    dot.onclick = (e) => { e.stopPropagation(); goToSlide(index); };
+                    indicators.appendChild(dot);
+                });
+                carouselContainer.appendChild(indicators);
+            }
+
+            modalMediaContainer.appendChild(carouselContainer);
+        }
+
+        function changeSlide(direction) {
+            const slides = document.getElementsByClassName('carousel-slide');
+            const dots = document.getElementsByClassName('indicator');
+
+            if (!slides.length) return;
+
+            slides[currentSlideIndex].classList.remove('active');
+            if (dots.length > 0) dots[currentSlideIndex].classList.remove('active');
+
+            currentSlideIndex += direction;
+
+            if (currentSlideIndex >= slides.length) {
+                currentSlideIndex = 0;
+            } else if (currentSlideIndex < 0) {
+                currentSlideIndex = slides.length - 1;
+            }
+
+            slides[currentSlideIndex].classList.add('active');
+            if (dots.length > 0) dots[currentSlideIndex].classList.add('active');
+        }
+
+        function goToSlide(index) {
+            const slides = document.getElementsByClassName('carousel-slide');
+            const dots = document.getElementsByClassName('indicator');
+
+            if (!slides.length) return;
+
+            slides[currentSlideIndex].classList.remove('active');
+            if (dots.length > 0) dots[currentSlideIndex].classList.remove('active');
+
+            currentSlideIndex = index;
+
+            slides[currentSlideIndex].classList.add('active');
+            if (dots.length > 0) dots[currentSlideIndex].classList.add('active');
+        }
+
+        closeBtn.onclick = function () {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+            modalMediaContainer.innerHTML = ''; // Stop iframe video
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+                modalMediaContainer.innerHTML = ''; // Stop iframe video
+            }
+        }
+
+        // Device Motion Script for VR (if needed)
+        var pano_iframe_name = "tour-embeded";
+        window.addEventListener("devicemotion", function (e) {
+            var iframe = document.getElementById(pano_iframe_name);
+            if (iframe) {
+                iframe.contentWindow.postMessage({
+                    type: "devicemotion",
+                    deviceMotionEvent: {
+                        acceleration: { x: e.acceleration.x, y: e.acceleration.y, z: e.acceleration.z },
+                        accelerationIncludingGravity: { x: e.accelerationIncludingGravity.x, y: e.accelerationIncludingGravity.y, z: e.accelerationIncludingGravity.z },
+                        rotationRate: { alpha: e.rotationRate.alpha, beta: e.rotationRate.beta, gamma: e.rotationRate.gamma },
+                        interval: e.interval,
+                        timeStamp: e.timeStamp
+                    }
+                }, "*");
+            }
+        });
+    </script>
+</body>
+
+</html>
