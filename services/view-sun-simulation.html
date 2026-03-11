@@ -26,19 +26,57 @@
 
     <main>
 
-        <!-- Hero -->
+        <!-- Hero & Sidebar Section -->
         <section class="section" style="padding-top: 100px; padding-bottom: 40px;">
             <div class="container">
                 <a href="../services.html" class="mb-md" style="display: block; color: var(--color-text-secondary);">←
                     Back to Services</a>
 
-                <img src="../images/sun-simulation.png" alt="View & Sun Simulation" class="fade-in"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
+                <div class="grid grid-12"
+                    style="grid-template-columns: repeat(12, 1fr); gap: 48px; align-items: start;">
 
-                <h1 class="mb-sm" style="font-size: 3rem;">View & Sun Simulation™</h1>
-                <p style="font-size: 1.5rem; color: var(--color-text-secondary); max-width: 800px;">
-                    Accurate environmental analysis. Show exact views and sunlight for every unit.
-                </p>
+                    <!-- Hero Left (8 columns) -->
+                    <div style="grid-column: span 8;">
+                        <img src="../images/sun-simulation.png" alt="View & Sun Simulation" class="fade-in"
+                            style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
+
+                        <h1 class="mb-sm" style="font-size: 3rem;">View & Sun Simulation™</h1>
+                        <p class="text-hero-desc">
+                            Accurate environmental analysis. Show exact views and sunlight for every unit.
+                        </p>
+                    </div>
+
+                    <!-- Sidebar Right (4 columns) -->
+                    <div style="grid-column: span 4;">
+                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
+                            <h3 class="mb-md">Why Choose Us?</h3>
+                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Reduce Operational Costs</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Accelerate Market Entry</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Expand Client Access</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Empower Sales Team</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Deliver Digital Confidence (Immersive Experience)</span>
+                                </li>
+                            </ul>
+                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
@@ -47,27 +85,29 @@
             <div class="container">
                 <div class="grid grid-12" style="grid-template-columns: repeat(12, 1fr); gap: 48px;">
 
-                    <div style="grid-column: span 8;">
+                    <div style="grid-column: span 12;">
 
                         <!-- Value Propositions -->
                         <div class="mb-xl">
-                            <h2 class="mb-md">Visual Perfection</h2>
-                            <div class="grid"
-                                style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Product Modeling</h3>
-                                    <p style="font-size: 0.95rem;">Faithful 3D modeling that captures every intricate
-                                        detail of furniture, enhancing brand awareness through realism.</p>
+                            <h2 class="mb-md">Accurate Environmental Analysis</h2>
+                            <div class="value-props-grid">
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title">Unmatched Realism</h3>
+                                    <p class="value-prop-desc">Blend faithful 3D modeling with actual drone photography
+                                        to show realistic views from every floor height, validating pricing tiers based
+                                        on exact perspectives.</p>
                                 </div>
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Lifestyle Scenes</h3>
-                                    <p style="font-size: 0.95rem;">Immersive lifestyle scenes that reflect your unique
-                                        universe, allowing customers to project themselves into the space.</p>
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title">Scientific Light Simulation</h3>
+                                    <p class="value-prop-desc">Provide precision solar studies based on geographical
+                                        coordinates, showcasing year-round light conditions and shadow impacts from
+                                        surrounding architecture.</p>
                                 </div>
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Multimedia & Interaction</h3>
-                                    <p style="font-size: 0.95rem;">Engaging video animations and interactive 360°
-                                        viewers that connect your audience deeply with your brand.</p>
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title">Total Buyer Confidence</h3>
+                                    <p class="value-prop-desc">Eliminate guesswork by showing clients exactly how their
+                                        future space will look and feel at any time of day, accelerating commitment and
+                                        trust.</p>
                                 </div>
                             </div>
                         </div>
@@ -77,8 +117,7 @@
 
                         <!-- Services Grid -->
                         <h2 class="mb-md">Our Specialized Services</h2>
-                        <div class="grid"
-                            style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+                        <div class="services-flex-container">
 
                             <!-- 1 -->
                             <div class="service-item" onclick="openGallery(this)"
@@ -150,32 +189,40 @@
                         </div>
                     </div>
 
-                    <div style="grid-column: span 4;">
-                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
-                            <h3 class="mb-md">Why Choose Us?</h3>
-                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Affordable prices</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Quality implementation</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Quick turnaround time & feedback</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Wide range of services</span>
-                                </li>
-                            </ul>
-                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
-                        </div>
-                    </div>
-
                 </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Full Container -->
+        <section class="section" style="background-color: var(--color-bg-alt); padding: 60px 0;">
+            <div class="container"
+                style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <h2 class="mb-md" style="font-size: 2.2rem;">Why Choose Us?</h2>
+                <ul
+                    style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; margin-bottom: 32px; list-style: none; padding: 0;">
+                    <li class="flex items-center gap-sm" style="font-size: 1.15rem;">
+                        <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                        <span>Reduce Operational Costs</span>
+                    </li>
+                    <li class="flex items-center gap-sm" style="font-size: 1.15rem;">
+                        <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                        <span>Accelerate Market Entry</span>
+                    </li>
+                    <li class="flex items-center gap-sm" style="font-size: 1.15rem;">
+                        <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                        <span>Expand Client Access</span>
+                    </li>
+                    <li class="flex items-center gap-sm" style="font-size: 1.15rem;">
+                        <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                        <span>Empower Sales Team</span>
+                    </li>
+                    <li class="flex items-center gap-sm" style="font-size: 1.15rem;">
+                        <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                        <span>Deliver Digital Confidence (Immersive Experience)</span>
+                    </li>
+                </ul>
+                <a href="../demo.html" class="btn btn-primary" style="padding: 14px 40px; font-size: 1.1rem;">Get a
+                    Quote</a>
             </div>
         </section>
 
@@ -219,7 +266,7 @@
             const galleryData = element.getAttribute('data-gallery');
 
             modalTitle.innerText = title;
-            modalDesc.innerText = desc;
+            modalDesc.innerHTML = desc;
 
             // Parse gallery data
             try {

@@ -26,19 +26,61 @@
 
     <main>
 
-        <!-- Hero -->
+        <!-- Hero & Sidebar Section -->
         <section class="section" style="padding-top: 100px; padding-bottom: 40px;">
             <div class="container">
                 <a href="../services.html" class="mb-md" style="display: block; color: var(--color-text-secondary);">←
                     Back to Services</a>
 
-                <img src="../images/digital-twin.png" alt="Digital Sales Twin" class="fade-in"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
+                <div class="grid grid-12"
+                    style="grid-template-columns: repeat(12, 1fr); gap: 48px; align-items: start;">
 
-                <h1 class="mb-sm" style="font-size: 3rem;">Digital Sales Twin™</h1>
-                <p style="font-size: 1.5rem; color: var(--color-text-secondary); max-width: 800px;">
-                    Full project virtualization that allows you to sell every unit before ground is broken.
-                </p>
+                    <!-- Hero Left (8 columns) -->
+                    <div style="grid-column: span 8;">
+                        <img src="../images/digital-twin.png" alt="Digital Sales Twin" class="fade-in"
+                            style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
+
+                        <h1 class="mb-sm" style="font-size: 3rem;">Real Estate - Digital Sales Twin</h1>
+                        <p class="text-hero-desc">
+                            Experience full project virtualization that allows you to showcase, explore, and sell every
+                            unit
+                            before construction begins. Empower clients to make informed decisions, visualize their
+                            future space
+                            in detail, and secure their investment even before the first stone is laid.
+                        </p>
+                    </div>
+
+                    <!-- Sidebar Right (4 columns) -->
+                    <div style="grid-column: span 4;">
+                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
+                            <h3 class="mb-md">Why Choose Us?</h3>
+                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Reduce Operational Costs</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Accelerate Market Entry</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Expand Client Access</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Empower Sales Team</span>
+                                </li>
+                                <li class="flex items-center gap-sm">
+                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                    <span>Deliver Digital Confidence (Immersive Experience)</span>
+                                </li>
+                            </ul>
+                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
@@ -47,27 +89,38 @@
             <div class="container">
                 <div class="grid grid-12" style="grid-template-columns: repeat(12, 1fr); gap: 48px;">
 
-                    <div style="grid-column: span 8;">
+                    <div style="grid-column: span 12;">
 
                         <!-- Value Propositions -->
                         <div class="mb-xl">
-                            <h2 class="mb-md">Visual Perfection</h2>
-                            <div class="grid"
-                                style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Product Modeling</h3>
-                                    <p style="font-size: 0.95rem;">Faithful 3D modeling that captures every intricate
-                                        detail of furniture, enhancing brand awareness through realism.</p>
+                            <h2 class="mb-md">Full Project Virtualization</h2>
+                            <div class="value-props-grid">
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title"> Digital Twin Experience
+                                    </h3>
+                                    <p class="value-prop-desc">Visualize your entire development in stunning 3D,
+                                        letting clients around the world explore every unit and enjoy the same immersive
+                                        experience as visiting in person-at a fraction of the cost and time.
+                                    </p>
                                 </div>
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Lifestyle Scenes</h3>
-                                    <p style="font-size: 0.95rem;">Immersive lifestyle scenes that reflect your unique
-                                        universe, allowing customers to project themselves into the space.</p>
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title">Cost & Time Efficiency
+
+                                    </h3>
+                                    <p class="value-prop-desc">Reduce the
+                                        costs associated with physical sample models, saving significantly on
+                                        construction and logistics while accelerating time to market so every unit
+                                        can be showcased and monetized almost immediately.
+                                    </p>
                                 </div>
-                                <div>
-                                    <h3 class="mb-xs" style="font-size: 1.1rem;">Multimedia & Interaction</h3>
-                                    <p style="font-size: 0.95rem;">Engaging video animations and interactive 360°
-                                        viewers that connect your audience deeply with your brand.</p>
+                                <div class="value-prop-card">
+                                    <h3 class="value-prop-title">Sales Effectiveness
+
+                                    </h3>
+                                    <p class="value-prop-desc">Combine cost savings, speed, and global reach to empower
+                                        your sales teams to close deals faster, build stronger client trust, and deliver
+                                        a full site experience from anywhere in the world—removing geographic barriers,
+                                        expanding sales potential, and lowering operational costs.</p>
                                 </div>
                             </div>
                         </div>
@@ -77,101 +130,223 @@
 
                         <!-- Services Grid -->
                         <h2 class="mb-md">Our Specialized Services</h2>
-                        <div class="grid"
-                            style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+                        <div class="services-flex-container">
 
                             <!-- 1 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="High-Fidelity 3D"
-                                data-desc="Built using Unreal Engine 5 technology for photorealistic lighting and textures."
-                                data-gallery='["../images/digital-twin.png", "../images/rendering.png", "../images/immersive.png"]'>
+                            <div class="service-item" onclick="openGallery(this)" data-title="High-Fidelity 3D Model"
+                                data-desc='
+A high-fidelity virtual replica of your architectural design, property, or development—created to transform how projects are showcased, sold, and experienced.
+<br><br> 
+
+<strong>Key Features</strong>
+<ul>
+<li><strong>Cost Efficiency:</strong> Eliminate expensive sample models or show houses, reducing construction and logistics costs.</li>
+<li><strong>Speed to Market:</strong> Showcase projects instantly and generate revenue faster, without waiting months for physical models.</li>
+<li><strong>Global Accessibility:</strong> Provide clients with a full site visit from anywhere in the world, removing geographic barriers and expanding reach.</li>
+<li><strong>Immersive Experience:</strong> Deliver realistic 3D detail that recreates the emotional impact of being physically present, building confidence and driving decisions.</li>
+</ul>
+<br>
+<strong>The Result</strong><br>
+A smarter, faster, and more cost-effective way to present real estate—empowering sales teams, inspiring client trust, and accelerating revenue growth.
+' data-gallery='["../images/digital-twin.png", "../images/rendering.png", "../images/immersive.png"]'>
+
                                 <img src="../images/digital-twin.png" alt="High-Fidelity 3D Preview">
+
                                 <span
                                     style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">01</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">High-Fidelity 3D</h3>
-                                <p style="font-size: 0.95rem;">Unreal Engine 5 technology for photorealistic lighting.
+
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">High-Fidelity 3D Model</h3>
+
+                                <p style="font-size: 0.95rem;">
+                                    Smart, immersive, and cost-saving 3D real estate model, combining unreal technology
+                                    and business impact.
                                 </p>
+
                             </div>
 
                             <!-- 2 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="Seamless Integration"
-                                data-desc="Runs directly in the browser without downloads, ensuring instant access for your clients."
-                                data-gallery='["../images/virtual-showroom.png", "../images/hero.png", "../images/rendering.png"]'>
-                                <img src="../images/virtual-showroom.png" alt="Integration Preview">
+
+
+                            <div class="service-item" onclick="openGallery(this)" data-title="Unit Configurator"
+                                data-desc='
+The Unit Configurator is an interactive 3D platform that connects your high-fidelity digital model with real-time data and transforms your property showcase into an intelligent sales tool. Clients can explore units, check availability, configure finishes, and visualize their future property from anywhere in the world.
+<br>
+By integrating directly with your internal systems such as inventory, materials, specifications, and floor plans, the platform creates a transparent, immersive, and personalized buying experience while streamlining the sales process for your team.
+
+<br><br>
+<strong>Key Features</strong>
+<ul>
+<li><strong>Interactive 3D Model:</strong> Explore the entire project through a high-fidelity digital twin.</li>
+<li><strong>Real-Time Availability:</strong> Connects with your sales system to display available, reserved, or sold units.</li>
+<li><strong>Material & Finish Configurator:</strong> Buyers can visualize different materials, finishes, and design options.</li>
+<li><strong>Integrated Floor Plans:</strong> Access detailed layouts and spatial information for each unit.</li>
+<li><strong>Inventory Integration:</strong> Syncs with internal databases to manage materials and configurations.</li>
+<li><strong>Remote Sales Experience:</strong> Clients can explore and configure units from anywhere in the world.</li>
+</ul>
+
+<br>
+<strong>The Result</strong><br>
+A faster, smarter, and more transparent real estate sales process that expands your market reach, increases buyer confidence, and empowers your sales team to close deals more efficiently.
+' data-gallery='["../images/unit-configurator.png", "../images/hero.png", "../images/rendering.png"]'>
+
+                                <img src="../images/unit-configurator.png" alt="Unit Configurator Preview">
+
                                 <span
                                     style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">02</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">Seamless Integration</h3>
-                                <p style="font-size: 0.95rem;">Runs directly in the browser without downloads.</p>
+
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">Unit Configurator</h3>
+
+                                <p style="font-size: 0.95rem;">
+                                    Personalization engine that allows buyers to explore, configure, and visualize their
+                                    future property in real time.
+                                </p>
+
                             </div>
 
                             <!-- 3 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="Full Interactivity"
-                                data-desc="Users can walk through common areas, enter units, and inspect finishes and details at their own pace."
-                                data-gallery='["../images/immersive.png", "../images/digital-twin.png", "../images/sun-simulation.png"]'>
+                            <div class="service-item" onclick="openGallery(this)"
+                                data-title="Dynamic Pricing & Smart Quoting" data-desc="
+This solution transforms property data into actionable sales output. It automatically generates tailored proposals based on customer preferences, unit specifications, and available inventory—delivering accuracy, transparency, and speed. Designed to operate independently, it connects seamlessly with your CRM, digital channels, and sales platforms, ensuring proposals are ready to share across every touchpoint.
+
+<br><br>
+
+<strong>Key Features</strong>
+<ul>
+<li><strong>Dynamic Pricing Engine:</strong> Instantly calculates costs as clients select layouts, finishes, and upgrades.</li>
+<li><strong>CRM Integration:</strong> Syncs with customer records to personalize proposals and track engagement.</li>
+<li><strong>Digital Channel Connectivity:</strong> Distributes proposals through email, portals, or sales apps.</li>
+<li><strong>Sales System Integration:</strong> Aligns with Unit Configurator and inventory, availability, and materials for real-time accuracy.</li>
+<li><strong>Automated Proposal Generation:</strong> Delivers professional, ready-to-share documents instantly.</li>
+<li><strong>Transparency & Trust:</strong> Shows clients exactly how choices affect pricing, building confidence.</li>
+</ul>
+
+<br>
+
+<strong>The Result</strong><br>
+A faster, smarter, and more connected sales process—empowering teams to close deals quickly, enabling buyers to make confident decisions, and unlocking new revenue opportunities through customization and upselling.
+" data-gallery='["../images/immersive.png", "../images/digital-twin.png", "../images/sun-simulation.png"]'>
+
                                 <img src="../images/immersive.png" alt="Interactivity Preview">
+
                                 <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">03</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">Full Interactivity</h3>
-                                <p style="font-size: 0.95rem;">Walk through common areas and enter units freely.</p>
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
+                                    03
+                                </span>
+
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">
+                                    Dynamic Pricing & Smart Quoting
+                                </h3>
+
+                                <p style="font-size: 0.95rem;">
+                                    Generate real-time pricing and personalized quotes by connecting your inventory,
+                                    unit data, and pricing rules directly.
+                                </p>
+
                             </div>
 
-                            <!-- 4 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="Data Connection"
-                                data-desc="Connects to your inventory system/CRM to show real-time availability and unit status."
-                                data-gallery='["../images/unit-configurator.png", "../images/hero.png", "../images/rendering.png"]'>
-                                <img src="../images/unit-configurator.png" alt="Data Connection Preview">
+                            <div class="service-item" onclick="openGallery(this)" data-title="Web Virtual Showroom"
+                                data-desc="
+
+The Web Virtual Showroom delivers seamless and cost-efficient streaming through our platform, allowing multiple clients worldwide to interact with your Digital Twin simultaneously—without per-minute streaming fees. This significantly reduces operational costs while providing a smooth and scalable experience.
+
+<br><br>
+
+Beyond visualization, the showroom connects your Digital Twin with real-time sales tools. Buyers can explore properties, review units, and complete transactions from anywhere. Integrated with CRM systems, digital channels, secure payment platforms, and e-signature solutions like DocuSign, it enables a complete end-to-end digital buying journey.
+
+<br><br>
+
+<strong>Key Features</strong>
+
+<ul>
+
+<li><strong>Seamless Streaming Technology:</strong> Hosted on our platform, eliminating expensive per-minute streaming fees.</li>
+
+<li><strong>Immersive Digital Twin Interaction:</strong> Explore properties and units from anywhere with unlimited concurrent users.</li>
+
+<li><strong>Real-Time Availability:</strong> Display available, reserved, or sold units directly from your sales system.</li>
+
+<li><strong>Customization Options:</strong> Configure finishes, layouts, and upgrades instantly.</li>
+
+<li><strong>Automated Documentation:</strong> Generate proposals and contracts with integrated e-signature workflows.</li>
+
+<li><strong>Secure Online Payments:</strong> Reserve units with fast and secure digital transactions.</li>
+
+<li><strong>CRM & Channel Integration:</strong> Connect customer data, portals, and sales platforms in one experience.</li>
+
+</ul>
+
+<br>
+
+<strong>The Result</strong><br>
+A fully digital showroom that expands global reach, accelerates sales, reduces reliance on physical showrooms, and builds buyer confidence through transparency and convenience.
+
+" data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'>
+
+                                <img src="../images/immersive.png" alt="Interactivity Preview">
+
                                 <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">04</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">Data Connection</h3>
-                                <p style="font-size: 0.95rem;">Real-time inventory and availability status.</p>
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
+                                    04
+                                </span>
+
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">
+                                    Web Virtual Showroom
+                                </h3>
+
+                                <p style="font-size: 0.95rem;">
+                                    A fully interactive online showroom where clients can explore properties and
+                                    experience the project from anywhere.
+                                </p>
+
                             </div>
 
-                            <!-- 5 -->
                             <div class="service-item" onclick="openGallery(this)" data-title="Analytics Dashboard"
-                                data-desc="Track user engagement, most visited units, and conversion metrics directly from the platform."
-                                data-gallery='["../images/hero.png", "../images/virtual-showroom.png", "../images/rendering.png"]'>
-                                <img src="../images/hero.png" alt="Analytics Preview">
+                                data-desc="
+
+The Analytics Dashboard converts user interactions into strategic insights for developers, investors, and project managers. By analyzing how users explore the digital model, interact with units, and engage with the project, it provides a clear view of market interest, buyer behavior, and project performance.
+
+<br><br>
+
+Beyond simple metrics, the dashboard becomes a dynamic reporting mechanism that helps stakeholders evaluate demand, optimize marketing strategies, and monitor real-time engagement with the project. These insights support smarter decisions in campaign strategy, product positioning, and investment performance.
+
+<br><br>
+
+<strong>Key Features</strong>
+<ul>
+<li><strong>User Interaction Tracking: </strong>Monitor how visitors explore the digital project and interact with units and features.</li>
+<li><strong>Demand & Buyer Insights: </strong>Identify which units, amenities, or configurations generate the most interest.</li>
+<li><strong>Engagement Analytics: </strong>Measure user behavior, time spent, and exploration patterns across the experience.</li>
+<li><strong>Campaign Performance Tracking: </strong>Evaluate how marketing channels and campaigns drive engagement and demand.</li>
+<li><strong>Dynamic Project Reporting: </strong>Generate clear reports that help investors and stakeholders track project performance.</li>
+<li><strong>Visual Data Dashboard: </strong>Present key metrics through intuitive charts and real-time data visualization.</li>
+</ul>
+
+<br>
+
+<strong>The Result</strong><br>
+A powerful intelligence tool that helps investors, developers, and sales teams understand demand, measure campaign performance, and make informed strategic decisions based on real user engagement.
+
+" data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'>
+
+                                <img src="../images/immersive.png" alt="Interactivity Preview">
+
                                 <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">05</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">Analytics Dashboard</h3>
-                                <p style="font-size: 0.95rem;">Track user engagement and conversion metrics.</p>
+                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
+                                    05
+                                </span>
+
+                                <h3 class="mb-xs" style="font-size: 1.1rem;">
+                                    Analytics Dashboard
+                                </h3>
+
+                                <p style="font-size: 0.95rem;">
+                                    A powerful dashboard that tracks user behavior, engagement, and insights to optimize
+                                    your sales strategy.
+                                </p>
+
                             </div>
 
-                            <!-- 6 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="VR Ready"
-                                data-desc="Fully compatible with VR headsets for an even more immersive onsite experience."
-                                data-gallery='["../images/rendering.png", "../images/immersive.png", "../images/digital-twin.png"]'>
-                                <img src="../images/rendering.png" alt="VR Ready Preview">
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">06</span>
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">VR Ready</h3>
-                                <p style="font-size: 0.95rem;">Compatible with VR headsets for immersion.</p>
-                            </div>
 
-                        </div>
-                    </div>
-
-                    <div style="grid-column: span 4;">
-                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
-                            <h3 class="mb-md">Why Choose Us?</h3>
-                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Affordable prices</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Quality implementation</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Quick turnaround time & feedback</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Wide range of services</span>
-                                </li>
-                            </ul>
-                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
                         </div>
                     </div>
 
@@ -219,7 +394,7 @@
             const galleryData = element.getAttribute('data-gallery');
 
             modalTitle.innerText = title;
-            modalDesc.innerText = desc;
+            modalDesc.innerHTML = desc;
 
             // Parse gallery data
             try {
