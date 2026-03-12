@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Ex-Immer</title>
+    <title>Políticas de Privacidad | Ex-View Solar</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        .form-input,
-        .form-textarea {
-            width: 100%;
-            padding: 12px 16px;
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-sm);
-            font-family: var(--font-main);
-            font-size: 1rem;
-            margin-bottom: 24px;
-        }
-
-        .form-textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
-        .form-label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="nav-logo">Ex-Immer</a>
@@ -42,55 +18,44 @@
                 <a href="services.html" class="nav-link">Services</a>
                 <a href="use-cases.html" class="nav-link">Use Cases</a>
                 <a href="pricing.html" class="nav-link">Pricing</a>
-                <a href="demo.html" class="nav-link btn btn-primary"
-                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
+                <a href="demo.html" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem;">Request
+                    Demo</a>
             </div>
         </div>
     </nav>
 
-    <main>
+    <main style="padding-top: 100px; padding-bottom: 64px;">
+        <div class="container" style="max-width: 800px; margin: 0 auto;">
+            <h1 class="mb-md">Términos de servicio y políticas de privacidad</h1>
+            <div class="card" style="background-color: var(--color-bg-alt); padding: 48px; border: none;">
+                <p style="color: var(--color-text-secondary); margin-bottom: 24px;">Última actualización: Marzo 2026</p>
 
-        <section class="section" style="padding-top: 160px; padding-bottom: 40px;">
-            <div class="container text-center">
-                <h1 class="mb-md">Let's talk about your project</h1>
-                <p style="max-width: 600px; margin: 0 auto; font-size: 1.25rem;">
-                    Have a question or looking for a custom solution? We're here to help.
-                </p>
+                <h3 class="mb-sm">1. Introducción</h3>
+                <p class="mb-md">Bienvenido a EX-VIEW SOLAR. Respetamos su privacidad y estamos comprometidos a proteger
+                    sus datos personales. Esta política de privacidad le informará sobre cómo cuidamos sus datos
+                    personales cuando visita nuestro sitio web.</p>
+
+                <h3 class="mb-sm">2. Los datos que recopilamos sobre usted</h3>
+                <p class="mb-md">Podemos recopilar, usar, almacenar y transferir diferentes tipos de datos personales
+                    sobre usted: datos de identidad, datos de contacto, datos técnicos, datos de uso.</p>
+
+                <h3 class="mb-sm">3. Cómo utilizamos sus datos personales</h3>
+                <p class="mb-md">Solo usaremos sus datos personales cuando la ley nos lo permita, más comúnmente en las
+                    siguientes circunstancias: cuando necesitamos ejecutar el contrato que estamos a punto de celebrar o
+                    hemos celebrado con usted; donde sea necesario para nuestros intereses legítimos.</p>
+
+                <h3 class="mb-sm">4. Seguridad de los datos</h3>
+                <p class="mb-md">Hemos implementado las medidas de seguridad adecuadas para evitar que sus datos
+                    personales se pierdan accidentalmente, se utilicen o se acceda a ellos de forma no autorizada, se
+                    alteren o se divulguen.</p>
+
+                <p style="margin-top: 32px;"><a href="contact.html" class="btn btn-secondary">Contactar para consultas
+                        de privacidad</a></p>
             </div>
-        </section>
-
-        <section class="section" style="padding-top: 0;">
-            <div class="container" style="max-width: 600px;">
-                <div class="card">
-                    <form action="#" method="POST">
-                        <label class="form-label" for="name">Name</label>
-                        <input type="text" id="name" name="name" class="form-input" required>
-
-                        <label class="form-label" for="email">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
-
-                        <label class="form-label" for="company">Company</label>
-                        <input type="text" id="company" name="company" class="form-input">
-
-                        <label class="form-label" for="project-type">Project Type</label>
-                        <select id="project-type" name="project-type" class="form-input">
-                            <option value="residential">Residential Development</option>
-                            <option value="commercial">Commercial / Office</option>
-                            <option value="brokerage">Brokerage / Agency</option>
-                            <option value="other">Other</option>
-                        </select>
-
-                        <label class="form-label" for="message">Message</label>
-                        <textarea id="message" name="message" class="form-textarea" required></textarea>
-
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer class="footer" style="background-color: var(--color-bg-alt); padding: 64px 0 32px;">
         <div class="container">
             <div class="grid grid-12" style="gap: 32px; padding-bottom: 32px;">
@@ -162,7 +127,6 @@
             }
         </style>
     </footer>
-
 </body>
 
 </html>

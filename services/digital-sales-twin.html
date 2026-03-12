@@ -356,10 +356,76 @@ A powerful intelligence tool that helps investors, developers, and sales teams u
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer" style="background-color: var(--color-bg-alt); padding: 64px 0 32px;">
         <div class="container">
-            <p style="color: var(--color-text-secondary);">&copy; 2026 Ex-Immer Real Estate.</p>
+            <div class="grid grid-12" style="gap: 32px; padding-bottom: 32px;">
+
+                <!-- Columna 1: Logo y Redes Sociales -->
+                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 24px;"
+                    class="footer-col-1">
+                    <img src="../images/logo-placeholder.png" alt="EX-VIEW SOLAR Logo"
+                        style="max-height: 80px; width: auto; object-fit: contain; background-color: var(--color-border); padding: 12px; border-radius: 8px;">
+                    <div style="display: flex; gap: 16px;">
+                        <a href="#" target="_blank"
+                            style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background-color: #333333; color: white; border-radius: 50%; font-weight: bold; text-decoration: none; transition: opacity 0.2s;"
+                            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">in</a>
+                        <a href="#" target="_blank"
+                            style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background-color: #333333; color: white; border-radius: 50%; font-weight: bold; text-decoration: none; transition: opacity 0.2s;"
+                            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">YT</a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Contacto y Copyright -->
+                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 12px;"
+                    class="footer-col-2">
+                    <ul
+                        style="display: flex; flex-direction: column; gap: 16px; font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: 16px;">
+                        <li style="display: flex; align-items: start; gap: 12px;">
+                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">📞</span>
+                            +57 (604) 560-6352 (Sede Colombia)
+                        </li>
+                        <li style="display: flex; align-items: start; gap: 12px;">
+                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">📍</span>
+                            1001 Brickell Bay Drive Suite 2700, Miami, FL, 33131
+                        </li>
+                        <li style="display: flex; align-items: start; gap: 12px;">
+                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">✉️</span>
+                            <a href="mailto:solar@ex-view.com"
+                                style="color: inherit; text-decoration: none;">solar@ex-view.com</a>
+                        </li>
+                    </ul>
+                    <p style="font-size: 0.85rem; color: var(--color-text-secondary);">&copy; EX-Immer 2026 Todos los
+                        derechos reservados.</p>
+                </div>
+
+                <!-- Columna 3: Legal y Desarrollo -->
+                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 24px;"
+                    class="footer-col-3">
+                    <ul style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
+                        <li><a href="../privacy-policy.html">Terms of Service & Privacy Policy</a></li>
+                        <li><a href="../legal-terms.html">Legal Terms & Services</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
         </div>
+
+        <style>
+            @media (min-width: 768px) {
+                .footer-col-1 {
+                    grid-column: span 4 !important;
+                }
+
+                .footer-col-2 {
+                    grid-column: span 4 !important;
+                }
+
+                .footer-col-3 {
+                    grid-column: span 4 !important;
+                }
+            }
+        </style>
     </footer>
 
     <script src="../js/main.js"></script>

@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Ex-Immer</title>
+    <title>Términos y Servicios Legales | Ex-View Solar</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        .form-input,
-        .form-textarea {
-            width: 100%;
-            padding: 12px 16px;
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-sm);
-            font-family: var(--font-main);
-            font-size: 1rem;
-            margin-bottom: 24px;
-        }
-
-        .form-textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
-        .form-label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="nav-logo">Ex-Immer</a>
@@ -42,55 +18,47 @@
                 <a href="services.html" class="nav-link">Services</a>
                 <a href="use-cases.html" class="nav-link">Use Cases</a>
                 <a href="pricing.html" class="nav-link">Pricing</a>
-                <a href="demo.html" class="nav-link btn btn-primary"
-                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
+                <a href="demo.html" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem;">Request
+                    Demo</a>
             </div>
         </div>
     </nav>
 
-    <main>
+    <main style="padding-top: 100px; padding-bottom: 64px;">
+        <div class="container" style="max-width: 800px; margin: 0 auto;">
+            <h1 class="mb-md">Términos y servicios legales</h1>
+            <div class="card" style="background-color: var(--color-bg-alt); padding: 48px; border: none;">
+                <p style="color: var(--color-text-secondary); margin-bottom: 24px;">Última actualización: Marzo 2026</p>
 
-        <section class="section" style="padding-top: 160px; padding-bottom: 40px;">
-            <div class="container text-center">
-                <h1 class="mb-md">Let's talk about your project</h1>
-                <p style="max-width: 600px; margin: 0 auto; font-size: 1.25rem;">
-                    Have a question or looking for a custom solution? We're here to help.
-                </p>
+                <h3 class="mb-sm">1. Aceptación de los Términos</h3>
+                <p class="mb-md">Al acceder o utilizar los servicios y el sitio web de EX-VIEW SOLAR, usted acepta estar
+                    sujeto a estos Términos y Condiciones Generales de Uso. Si no está de acuerdo con alguno de estos
+                    términos, le rogamos que no utilice nuestros servicios.</p>
+
+                <h3 class="mb-sm">2. Servicios Ofrecidos</h3>
+                <p class="mb-md">EX-VIEW SOLAR proporciona soluciones de visualización arquitectónica, gemelos
+                    digitales, simulaciones inmersivas y configuradores de unidades para proyectos inmobiliarios. Nos
+                    reservamos el derecho de modificar o descontinuar cualquier servicio sin previo aviso.</p>
+
+                <h3 class="mb-sm">3. Propiedad Intelectual</h3>
+                <p class="mb-md">Todo el contenido de este sitio web, incluyendo textos, gráficos, logotipos, íconos de
+                    botones, imágenes y clips de audio, así como los modelos 3D y renderizados, son propiedad de EX-VIEW
+                    SOLAR o de sus proveedores de contenido (que en muchos casos son nuestros clientes) y están
+                    protegidos por las leyes de propiedad intelectual internacionales y de Colombia.</p>
+
+                <h3 class="mb-sm">4. Limitación de Responsabilidad</h3>
+                <p class="mb-md">EX-VIEW SOLAR no será responsable, bajo ninguna circunstancia, por daños directos,
+                    indirectos, incidentales, especiales o consecuentes que resulten del uso o la incapacidad de usar
+                    nuestros servicios o el material de este sitio web. Las simulaciones visuales son representaciones
+                    artísticas y pueden diferir del producto final construido por los desarrolladores inmobiliarios.</p>
+
+                <p style="margin-top: 32px;"><a href="contact.html" class="btn btn-secondary">Contactar para consultas
+                        legales</a></p>
             </div>
-        </section>
-
-        <section class="section" style="padding-top: 0;">
-            <div class="container" style="max-width: 600px;">
-                <div class="card">
-                    <form action="#" method="POST">
-                        <label class="form-label" for="name">Name</label>
-                        <input type="text" id="name" name="name" class="form-input" required>
-
-                        <label class="form-label" for="email">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
-
-                        <label class="form-label" for="company">Company</label>
-                        <input type="text" id="company" name="company" class="form-input">
-
-                        <label class="form-label" for="project-type">Project Type</label>
-                        <select id="project-type" name="project-type" class="form-input">
-                            <option value="residential">Residential Development</option>
-                            <option value="commercial">Commercial / Office</option>
-                            <option value="brokerage">Brokerage / Agency</option>
-                            <option value="other">Other</option>
-                        </select>
-
-                        <label class="form-label" for="message">Message</label>
-                        <textarea id="message" name="message" class="form-textarea" required></textarea>
-
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer class="footer" style="background-color: var(--color-bg-alt); padding: 64px 0 32px;">
         <div class="container">
             <div class="grid grid-12" style="gap: 32px; padding-bottom: 32px;">
@@ -162,7 +130,6 @@
             }
         </style>
     </footer>
-
 </body>
 
 </html>
