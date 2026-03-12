@@ -1,140 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Sales Twin | Ex-Immer Services</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Sales Twin™ | Ex-Immer Services</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
+  <body>
     <nav class="navbar">
-        <div class="container">
-            <a href="../index.html" class="nav-logo">Ex-Immer</a>
-            <div class="nav-links hidden-mobile">
-                <a href="../services.html" class="nav-link">Services</a>
-                <a href="../use-cases.html" class="nav-link">Use Cases</a>
-                <a href="../pricing.html" class="nav-link">Pricing</a>
-                <a href="../demo.html" class="nav-link btn btn-primary"
-                    style="padding: 8px 16px; font-size: 0.85rem;">Request Demo</a>
-            </div>
+      <div class="container">
+        <a href="../index.html" class="nav-logo">Ex-Immer</a>
+        <div class="nav-links hidden-mobile">
+          <a href="../services.html" class="nav-link">Services</a>
+          <a href="../use-cases.html" class="nav-link">Use Cases</a>
+          <a href="../pricing.html" class="nav-link">Pricing</a>
+          <a
+            href="../demo.html"
+            class="nav-link btn btn-primary"
+            style="padding: 8px 16px; font-size: 0.85rem"
+            >Request Demo</a
+          >
         </div>
+      </div>
     </nav>
 
     <main>
+      <!-- Hero & Sidebar Section -->
+      <section class="section" style="padding-top: 100px; padding-bottom: 40px">
+        <div class="container">
+          <a
+            href="../services.html"
+            class="mb-md"
+            style="display: block; color: var(--color-text-secondary)"
+            >← Back to Services</a
+          >
 
-        <!-- Hero & Sidebar Section -->
-        <section class="section" style="padding-top: 100px; padding-bottom: 40px;">
-            <div class="container">
-                <a href="../services.html" class="mb-md" style="display: block; color: var(--color-text-secondary);">←
-                    Back to Services</a>
+          <div
+            class="grid grid-12"
+            style="
+              grid-template-columns: repeat(12, 1fr);
+              gap: 48px;
+              align-items: start;
+            "
+          >
+            <!-- Hero Left (8 columns) -->
+            <div style="grid-column: span 8">
+              <img
+                src="../images/digital-twin.png"
+                alt="Digital Sales Twin"
+                class="fade-in"
+                style="
+                  width: 100%;
+                  height: 300px;
+                  object-fit: cover;
+                  border-radius: var(--radius-md);
+                  margin-bottom: 32px;
+                  box-shadow: var(--shadow-md);
+                "
+              />
 
-                <div class="grid grid-12"
-                    style="grid-template-columns: repeat(12, 1fr); gap: 48px; align-items: start;">
-
-                    <!-- Hero Left (8 columns) -->
-                    <div style="grid-column: span 8;">
-                        <img src="../images/digital-twin.png" alt="Digital Sales Twin" class="fade-in"
-                            style="width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 32px; box-shadow: var(--shadow-md);">
-
-                        <h1 class="mb-sm" style="font-size: 3rem;">Real Estate - Digital Sales Twin</h1>
-                        <p class="text-hero-desc">
-                            Experience full project virtualization that allows you to showcase, explore, and sell every
-                            unit
-                            before construction begins. Empower clients to make informed decisions, visualize their
-                            future space
-                            in detail, and secure their investment even before the first stone is laid.
-                        </p>
-                    </div>
-
-                    <!-- Sidebar Right (4 columns) -->
-                    <div style="grid-column: span 4;">
-                        <div class="card" style="background-color: var(--color-bg-alt); border: none;">
-                            <h3 class="mb-md">Why Choose Us?</h3>
-                            <ul style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Reduce Operational Costs</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Accelerate Market Entry</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Expand Client Access</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Empower Sales Team</span>
-                                </li>
-                                <li class="flex items-center gap-sm">
-                                    <span style="color: var(--color-accent); font-weight: bold;">✓</span>
-                                    <span>Deliver Digital Confidence (Immersive Experience)</span>
-                                </li>
-                            </ul>
-                            <a href="../demo.html" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
-                        </div>
-                    </div>
-
-                </div>
+              <h1 class="mb-sm" style="font-size: 3rem">
+                Real Estate - Digital Sales Twin
+              </h1>
+              <p class="text-hero-desc">
+                Experience full project virtualization that allows you to
+                showcase, explore, and sell every unit before construction
+                begins. Empower clients to make informed decisions, visualize
+                their future space in detail, and secure their investment even
+                before the first stone is laid.
+              </p>
             </div>
-        </section>
 
-        <!-- Content Split -->
-        <section class="section" style="padding-top: 0;">
-            <div class="container">
-                <div class="grid grid-12" style="grid-template-columns: repeat(12, 1fr); gap: 48px;">
+            <!-- Sidebar Right (4 columns) -->
+            <div style="grid-column: span 4">
+              <div
+                class="card"
+                style="background-color: var(--color-bg-alt); border: none"
+              >
+                <h3 class="mb-md">Why Choose Us?</h3>
+                <ul
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    margin-bottom: 32px;
+                  "
+                >
+                  <li class="flex items-center gap-sm">
+                    <span style="color: var(--color-accent); font-weight: bold"
+                      >✓</span
+                    >
+                    <span>Reduce Operational Costs</span>
+                  </li>
+                  <li class="flex items-center gap-sm">
+                    <span style="color: var(--color-accent); font-weight: bold"
+                      >✓</span
+                    >
+                    <span>Accelerate Market Entry</span>
+                  </li>
+                  <li class="flex items-center gap-sm">
+                    <span style="color: var(--color-accent); font-weight: bold"
+                      >✓</span
+                    >
+                    <span>Expand Client Access</span>
+                  </li>
+                  <li class="flex items-center gap-sm">
+                    <span style="color: var(--color-accent); font-weight: bold"
+                      >✓</span
+                    >
+                    <span>Empower Sales Team</span>
+                  </li>
+                  <li class="flex items-center gap-sm">
+                    <span style="color: var(--color-accent); font-weight: bold"
+                      >✓</span
+                    >
+                    <span
+                      >Deliver Digital Confidence (Immersive Experience)</span
+                    >
+                  </li>
+                </ul>
+                <a
+                  href="../demo.html"
+                  class="btn btn-primary"
+                  style="width: 100%"
+                  >Get a Quote</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                    <div style="grid-column: span 12;">
+      <!-- Content Split -->
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div
+            class="grid grid-12"
+            style="grid-template-columns: repeat(12, 1fr); gap: 48px"
+          >
+            <div style="grid-column: span 12">
+              <!-- Value Propositions -->
+              <div class="mb-xl">
+                <h2 class="mb-md">Full Project Virtualization</h2>
+                <div class="value-props-grid">
+                  <div class="value-prop-card">
+                    <h3 class="value-prop-title">Digital Twin Experience</h3>
+                    <p class="value-prop-desc">
+                      Visualize your entire development in stunning 3D, letting
+                      clients around the world explore every unit and enjoy the
+                      same immersive experience as visiting in person-at a
+                      fraction of the cost and time.
+                    </p>
+                  </div>
+                  <div class="value-prop-card">
+                    <h3 class="value-prop-title">Cost & Time Efficiency</h3>
+                    <p class="value-prop-desc">
+                      Reduce the costs associated with physical sample models,
+                      saving significantly on construction and logistics while
+                      accelerating time to market so every unit can be showcased
+                      and monetized almost immediately.
+                    </p>
+                  </div>
+                  <div class="value-prop-card">
+                    <h3 class="value-prop-title">Sales Effectiveness</h3>
+                    <p class="value-prop-desc">
+                      Combine cost savings, speed, and global reach to empower
+                      your sales teams to close deals faster, build stronger
+                      client trust, and deliver a full site experience from
+                      anywhere in the world—removing geographic barriers,
+                      expanding sales potential, and lowering operational costs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <br />
+              <br />
 
-                        <!-- Value Propositions -->
-                        <div class="mb-xl">
-                            <h2 class="mb-md">Full Project Virtualization</h2>
-                            <div class="value-props-grid">
-                                <div class="value-prop-card">
-                                    <h3 class="value-prop-title"> Digital Twin Experience
-                                    </h3>
-                                    <p class="value-prop-desc">Visualize your entire development in stunning 3D,
-                                        letting clients around the world explore every unit and enjoy the same immersive
-                                        experience as visiting in person-at a fraction of the cost and time.
-                                    </p>
-                                </div>
-                                <div class="value-prop-card">
-                                    <h3 class="value-prop-title">Cost & Time Efficiency
-
-                                    </h3>
-                                    <p class="value-prop-desc">Reduce the
-                                        costs associated with physical sample models, saving significantly on
-                                        construction and logistics while accelerating time to market so every unit
-                                        can be showcased and monetized almost immediately.
-                                    </p>
-                                </div>
-                                <div class="value-prop-card">
-                                    <h3 class="value-prop-title">Sales Effectiveness
-
-                                    </h3>
-                                    <p class="value-prop-desc">Combine cost savings, speed, and global reach to empower
-                                        your sales teams to close deals faster, build stronger client trust, and deliver
-                                        a full site experience from anywhere in the world—removing geographic barriers,
-                                        expanding sales potential, and lowering operational costs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-
-                        <!-- Services Grid -->
-                        <h2 class="mb-md">Our Specialized Services</h2>
-                        <div class="services-flex-container">
-
-                            <!-- 1 -->
-                            <div class="service-item" onclick="openGallery(this)" data-title="High-Fidelity 3D Model"
-                                data-desc='
+              <!-- Services Grid -->
+              <h2 class="mb-md">Our Specialized Services</h2>
+              <div class="services-flex-container">
+                <!-- 1 -->
+                <div
+                  class="service-item"
+                  onclick="openGallery(this)"
+                  data-title="High-Fidelity 3D Model"
+                  data-desc="
 A high-fidelity virtual replica of your architectural design, property, or development—created to transform how projects are showcased, sold, and experienced.
 <br><br> 
 
@@ -148,27 +204,41 @@ A high-fidelity virtual replica of your architectural design, property, or devel
 <br>
 <strong>The Result</strong><br>
 A smarter, faster, and more cost-effective way to present real estate—empowering sales teams, inspiring client trust, and accelerating revenue growth.
-' data-gallery='["../images/digital-twin.png", "../images/rendering.png", "../images/immersive.png"]'>
+"
+                  data-gallery='["../images/digital-twin.png", "../images/rendering.png", "../images/immersive.png"]'
+                >
+                  <img
+                    src="../images/digital-twin.png"
+                    alt="High-Fidelity 3D Preview"
+                  />
 
-                                <img src="../images/digital-twin.png" alt="High-Fidelity 3D Preview">
+                  <span
+                    style="
+                      font-size: 2rem;
+                      color: rgba(0, 0, 0, 0.1);
+                      font-weight: 700;
+                      display: block;
+                    "
+                    >01</span
+                  >
 
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">01</span>
+                  <h3 class="mb-xs" style="font-size: 1.1rem">
+                    High-Fidelity 3D Model
+                  </h3>
 
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">High-Fidelity 3D Model</h3>
+                  <p style="font-size: 0.95rem">
+                    Smart, immersive, and cost-saving 3D real estate model,
+                    combining unreal technology and business impact.
+                  </p>
+                </div>
 
-                                <p style="font-size: 0.95rem;">
-                                    Smart, immersive, and cost-saving 3D real estate model, combining unreal technology
-                                    and business impact.
-                                </p>
+                <!-- 2 -->
 
-                            </div>
-
-                            <!-- 2 -->
-
-
-                            <div class="service-item" onclick="openGallery(this)" data-title="Unit Configurator"
-                                data-desc='
+                <div
+                  class="service-item"
+                  onclick="openGallery(this)"
+                  data-title="Unit Configurator"
+                  data-desc="
 The Unit Configurator is an interactive 3D platform that connects your high-fidelity digital model with real-time data and transforms your property showcase into an intelligent sales tool. Clients can explore units, check availability, configure finishes, and visualize their future property from anywhere in the world.
 <br>
 By integrating directly with your internal systems such as inventory, materials, specifications, and floor plans, the platform creates a transparent, immersive, and personalized buying experience while streamlining the sales process for your team.
@@ -187,25 +257,40 @@ By integrating directly with your internal systems such as inventory, materials,
 <br>
 <strong>The Result</strong><br>
 A faster, smarter, and more transparent real estate sales process that expands your market reach, increases buyer confidence, and empowers your sales team to close deals more efficiently.
-' data-gallery='["../images/unit-configurator.png", "../images/hero.png", "../images/rendering.png"]'>
+"
+                  data-gallery='["../images/unit-configurator.png", "../images/hero.png", "../images/rendering.png"]'
+                >
+                  <img
+                    src="../images/unit-configurator.png"
+                    alt="Unit Configurator Preview"
+                  />
 
-                                <img src="../images/unit-configurator.png" alt="Unit Configurator Preview">
+                  <span
+                    style="
+                      font-size: 2rem;
+                      color: rgba(0, 0, 0, 0.1);
+                      font-weight: 700;
+                      display: block;
+                    "
+                    >02</span
+                  >
 
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">02</span>
+                  <h3 class="mb-xs" style="font-size: 1.1rem">
+                    Unit Configurator
+                  </h3>
 
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">Unit Configurator</h3>
+                  <p style="font-size: 0.95rem">
+                    Personalization engine that allows buyers to explore,
+                    configure, and visualize their future property in real time.
+                  </p>
+                </div>
 
-                                <p style="font-size: 0.95rem;">
-                                    Personalization engine that allows buyers to explore, configure, and visualize their
-                                    future property in real time.
-                                </p>
-
-                            </div>
-
-                            <!-- 3 -->
-                            <div class="service-item" onclick="openGallery(this)"
-                                data-title="Dynamic Pricing & Smart Quoting" data-desc="
+                <!-- 3 -->
+                <div
+                  class="service-item"
+                  onclick="openGallery(this)"
+                  data-title="Dynamic Pricing & Smart Quoting"
+                  data-desc="
 This solution transforms property data into actionable sales output. It automatically generates tailored proposals based on customer preferences, unit specifications, and available inventory—delivering accuracy, transparency, and speed. Designed to operate independently, it connects seamlessly with your CRM, digital channels, and sales platforms, ensuring proposals are ready to share across every touchpoint.
 
 <br><br>
@@ -224,28 +309,41 @@ This solution transforms property data into actionable sales output. It automati
 
 <strong>The Result</strong><br>
 A faster, smarter, and more connected sales process—empowering teams to close deals quickly, enabling buyers to make confident decisions, and unlocking new revenue opportunities through customization and upselling.
-" data-gallery='["../images/immersive.png", "../images/digital-twin.png", "../images/sun-simulation.png"]'>
+"
+                  data-gallery='["../images/immersive.png", "../images/digital-twin.png", "../images/sun-simulation.png"]'
+                >
+                  <img
+                    src="../images/immersive.png"
+                    alt="Interactivity Preview"
+                  />
 
-                                <img src="../images/immersive.png" alt="Interactivity Preview">
+                  <span
+                    style="
+                      font-size: 2rem;
+                      color: rgba(0, 0, 0, 0.1);
+                      font-weight: 700;
+                      display: block;
+                    "
+                  >
+                    03
+                  </span>
 
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
-                                    03
-                                </span>
+                  <h3 class="mb-xs" style="font-size: 1.1rem">
+                    Dynamic Pricing & Smart Quoting
+                  </h3>
 
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">
-                                    Dynamic Pricing & Smart Quoting
-                                </h3>
+                  <p style="font-size: 0.95rem">
+                    Generate real-time pricing and personalized quotes by
+                    connecting your inventory, unit data, and pricing rules
+                    directly.
+                  </p>
+                </div>
 
-                                <p style="font-size: 0.95rem;">
-                                    Generate real-time pricing and personalized quotes by connecting your inventory,
-                                    unit data, and pricing rules directly.
-                                </p>
-
-                            </div>
-
-                            <div class="service-item" onclick="openGallery(this)" data-title="Web Virtual Showroom"
-                                data-desc="
+                <div
+                  class="service-item"
+                  onclick="openGallery(this)"
+                  data-title="Web Virtual Showroom"
+                  data-desc="
 
 The Web Virtual Showroom delivers seamless and cost-efficient streaming through our platform, allowing multiple clients worldwide to interact with your Digital Twin simultaneously—without per-minute streaming fees. This significantly reduces operational costs while providing a smooth and scalable experience.
 
@@ -280,28 +378,40 @@ Beyond visualization, the showroom connects your Digital Twin with real-time sal
 <strong>The Result</strong><br>
 A fully digital showroom that expands global reach, accelerates sales, reduces reliance on physical showrooms, and builds buyer confidence through transparency and convenience.
 
-" data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'>
+"
+                  data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'
+                >
+                  <img
+                    src="../images/immersive.png"
+                    alt="Interactivity Preview"
+                  />
 
-                                <img src="../images/immersive.png" alt="Interactivity Preview">
+                  <span
+                    style="
+                      font-size: 2rem;
+                      color: rgba(0, 0, 0, 0.1);
+                      font-weight: 700;
+                      display: block;
+                    "
+                  >
+                    04
+                  </span>
 
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
-                                    04
-                                </span>
+                  <h3 class="mb-xs" style="font-size: 1.1rem">
+                    Web Virtual Showroom
+                  </h3>
 
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">
-                                    Web Virtual Showroom
-                                </h3>
+                  <p style="font-size: 0.95rem">
+                    A fully interactive online showroom where clients can
+                    explore properties and experience the project from anywhere.
+                  </p>
+                </div>
 
-                                <p style="font-size: 0.95rem;">
-                                    A fully interactive online showroom where clients can explore properties and
-                                    experience the project from anywhere.
-                                </p>
-
-                            </div>
-
-                            <div class="service-item" onclick="openGallery(this)" data-title="Analytics Dashboard"
-                                data-desc="
+                <div
+                  class="service-item"
+                  onclick="openGallery(this)"
+                  data-title="Analytics Dashboard"
+                  data-desc="
 
 The Analytics Dashboard converts user interactions into strategic insights for developers, investors, and project managers. By analyzing how users explore the digital model, interact with units, and engage with the project, it provides a clear view of market interest, buyer behavior, and project performance.
 
@@ -326,297 +436,438 @@ Beyond simple metrics, the dashboard becomes a dynamic reporting mechanism that 
 <strong>The Result</strong><br>
 A powerful intelligence tool that helps investors, developers, and sales teams understand demand, measure campaign performance, and make informed strategic decisions based on real user engagement.
 
-" data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'>
+"
+                  data-gallery='[" ../images/immersive.png", "../images/digital-twin.png" , "../images/sun-simulation.png" ]'
+                >
+                  <img
+                    src="../images/immersive.png"
+                    alt="Interactivity Preview"
+                  />
 
-                                <img src="../images/immersive.png" alt="Interactivity Preview">
+                  <span
+                    style="
+                      font-size: 2rem;
+                      color: rgba(0, 0, 0, 0.1);
+                      font-weight: 700;
+                      display: block;
+                    "
+                  >
+                    05
+                  </span>
 
-                                <span
-                                    style="font-size: 2rem; color: rgba(0,0,0,0.1); font-weight: 700; display: block;">
-                                    05
-                                </span>
+                  <h3 class="mb-xs" style="font-size: 1.1rem">
+                    Analytics Dashboard
+                  </h3>
 
-                                <h3 class="mb-xs" style="font-size: 1.1rem;">
-                                    Analytics Dashboard
-                                </h3>
-
-                                <p style="font-size: 0.95rem;">
-                                    A powerful dashboard that tracks user behavior, engagement, and insights to optimize
-                                    your sales strategy.
-                                </p>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
+                  <p style="font-size: 0.95rem">
+                    A powerful dashboard that tracks user behavior, engagement,
+                    and insights to optimize your sales strategy.
+                  </p>
                 </div>
+              </div>
             </div>
-        </section>
-
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer" style="background-color: var(--color-bg-alt); padding: 64px 0 32px;">
-        <div class="container">
-            <div class="grid grid-12" style="gap: 32px; padding-bottom: 32px;">
-
-                <!-- Columna 1: Logo y Redes Sociales -->
-                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 24px;"
-                    class="footer-col-1">
-                    <img src="../images/logo-placeholder.png" alt="EX-VIEW SOLAR Logo"
-                        style="max-height: 80px; width: auto; object-fit: contain; background-color: var(--color-border); padding: 12px; border-radius: 8px;">
-                    <div style="display: flex; gap: 16px;">
-                        <a href="#" target="_blank"
-                            style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background-color: #333333; color: white; border-radius: 50%; font-weight: bold; text-decoration: none; transition: opacity 0.2s;"
-                            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">in</a>
-                        <a href="#" target="_blank"
-                            style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; background-color: #333333; color: white; border-radius: 50%; font-weight: bold; text-decoration: none; transition: opacity 0.2s;"
-                            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">YT</a>
-                    </div>
-                </div>
-
-                <!-- Columna 2: Contacto y Copyright -->
-                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 12px;"
-                    class="footer-col-2">
-                    <ul
-                        style="display: flex; flex-direction: column; gap: 16px; font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: 16px;">
-                        <li style="display: flex; align-items: start; gap: 12px;">
-                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">📞</span>
-                            +57 (604) 560-6352 (Sede Colombia)
-                        </li>
-                        <li style="display: flex; align-items: start; gap: 12px;">
-                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">📍</span>
-                            1001 Brickell Bay Drive Suite 2700, Miami, FL, 33131
-                        </li>
-                        <li style="display: flex; align-items: start; gap: 12px;">
-                            <span style="filter: grayscale(100%); opacity: 0.8; font-size: 1.2rem;">✉️</span>
-                            <a href="mailto:solar@ex-view.com"
-                                style="color: inherit; text-decoration: none;">solar@ex-view.com</a>
-                        </li>
-                    </ul>
-                    <p style="font-size: 0.85rem; color: var(--color-text-secondary);">&copy; EX-Immer 2026 Todos los
-                        derechos reservados.</p>
-                </div>
-
-                <!-- Columna 3: Legal y Desarrollo -->
-                <div style="grid-column: span 12; display: flex; flex-direction: column; gap: 24px;"
-                    class="footer-col-3">
-                    <ul style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
-                        <li><a href="../privacy-policy.html">Terms of Service & Privacy Policy</a></li>
-                        <li><a href="../legal-terms.html">Legal Terms & Services</a></li>
-                    </ul>
-
-                </div>
-
+    <footer
+      class="footer"
+      style="background-color: var(--color-bg-alt); padding: 64px 0 32px"
+    >
+      <div class="container">
+        <div class="grid grid-12" style="gap: 32px; padding-bottom: 32px">
+          <!-- Columna 1: Logo y Redes Sociales -->
+          <div
+            style="
+              grid-column: span 12;
+              display: flex;
+              flex-direction: column;
+              gap: 24px;
+            "
+            class="footer-col-1"
+          >
+            <img
+              src="../images/logo-placeholder.png"
+              alt="EX-VIEW SOLAR Logo"
+              style="
+                max-height: 80px;
+                width: auto;
+                object-fit: contain;
+                background-color: var(--color-border);
+                padding: 12px;
+                border-radius: 8px;
+              "
+            />
+            <div style="display: flex; gap: 16px">
+              <a
+                href="#"
+                target="_blank"
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 44px;
+                  height: 44px;
+                  background-color: #333333;
+                  color: white;
+                  border-radius: 50%;
+                  font-weight: bold;
+                  text-decoration: none;
+                  transition: opacity 0.2s;
+                "
+                onmouseover="this.style.opacity = '0.8'"
+                onmouseout="this.style.opacity = '1'"
+                >in</a
+              >
+              <a
+                href="#"
+                target="_blank"
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 44px;
+                  height: 44px;
+                  background-color: #333333;
+                  color: white;
+                  border-radius: 50%;
+                  font-weight: bold;
+                  text-decoration: none;
+                  transition: opacity 0.2s;
+                "
+                onmouseover="this.style.opacity = '0.8'"
+                onmouseout="this.style.opacity = '1'"
+                >YT</a
+              >
             </div>
+          </div>
+
+          <!-- Columna 2: Contacto y Copyright -->
+          <div
+            style="
+              grid-column: span 12;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+            "
+            class="footer-col-2"
+          >
+            <ul
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                font-size: 0.95rem;
+                color: var(--color-text-secondary);
+                margin-bottom: 16px;
+              "
+            >
+              <li style="display: flex; align-items: start; gap: 12px">
+                <span
+                  style="
+                    filter: grayscale(100%);
+                    opacity: 0.8;
+                    font-size: 1.2rem;
+                  "
+                  >📞</span
+                >
+                +57 (604) 560-6352 (Sede Colombia)
+              </li>
+              <li style="display: flex; align-items: start; gap: 12px">
+                <span
+                  style="
+                    filter: grayscale(100%);
+                    opacity: 0.8;
+                    font-size: 1.2rem;
+                  "
+                  >📍</span
+                >
+                1001 Brickell Bay Drive Suite 2700, Miami, FL, 33131
+              </li>
+              <li style="display: flex; align-items: start; gap: 12px">
+                <span
+                  style="
+                    filter: grayscale(100%);
+                    opacity: 0.8;
+                    font-size: 1.2rem;
+                  "
+                  >✉️</span
+                >
+                <a
+                  href="mailto:solar@ex-view.com"
+                  style="color: inherit; text-decoration: none"
+                  >solar@ex-view.com</a
+                >
+              </li>
+            </ul>
+            <p style="font-size: 0.85rem; color: var(--color-text-secondary)">
+              &copy; EX-Immer 2026 Todos los derechos reservados.
+            </p>
+          </div>
+
+          <!-- Columna 3: Legal y Desarrollo -->
+          <div
+            style="
+              grid-column: span 12;
+              display: flex;
+              flex-direction: column;
+              gap: 24px;
+            "
+            class="footer-col-3"
+          >
+            <ul
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                font-size: 0.95rem;
+              "
+            >
+              <li>
+                <a href="../privacy-policy.html"
+                  >Terms of Service & Privacy Policy</a
+                >
+              </li>
+              <li><a href="../legal-terms.html">Legal Terms & Services</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
 
-        <style>
-            @media (min-width: 768px) {
-                .footer-col-1 {
-                    grid-column: span 4 !important;
-                }
+      <style>
+        @media (min-width: 768px) {
+          .footer-col-1 {
+            grid-column: span 4 !important;
+          }
 
-                .footer-col-2 {
-                    grid-column: span 4 !important;
-                }
+          .footer-col-2 {
+            grid-column: span 4 !important;
+          }
 
-                .footer-col-3 {
-                    grid-column: span 4 !important;
-                }
-            }
-        </style>
+          .footer-col-3 {
+            grid-column: span 4 !important;
+          }
+        }
+      </style>
     </footer>
 
     <script src="../js/main.js"></script>
 
     <!-- Service Detail Modal + Carousel -->
     <div id="serviceModal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div class="modal-media-container" id="modalMedia">
-                <!-- Media will be injected here -->
-            </div>
-            <div class="modal-body">
-                <h2 id="modalTitle" class="mb-md">Service Title</h2>
-                <p id="modalDesc">Service description goes here.</p>
-            </div>
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-media-container" id="modalMedia">
+          <!-- Media will be injected here -->
         </div>
+        <div class="modal-body">
+          <h2 id="modalTitle" class="mb-md">Service Title</h2>
+          <p id="modalDesc">Service description goes here.</p>
+        </div>
+      </div>
     </div>
 
     <script>
-        const modal = document.getElementById("serviceModal");
-        const modalTitle = document.getElementById("modalTitle");
-        const modalDesc = document.getElementById("modalDesc");
-        const modalMediaContainer = document.getElementById("modalMedia");
-        const closeBtn = document.getElementsByClassName("close-modal")[0];
+      const modal = document.getElementById("serviceModal");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalDesc = document.getElementById("modalDesc");
+      const modalMediaContainer = document.getElementById("modalMedia");
+      const closeBtn = document.getElementsByClassName("close-modal")[0];
 
-        let currentGallery = [];
-        let currentSlideIndex = 0;
+      let currentGallery = [];
+      let currentSlideIndex = 0;
 
-        function openGallery(element) {
-            const title = element.getAttribute('data-title');
-            const desc = element.getAttribute('data-desc');
-            const galleryData = element.getAttribute('data-gallery');
+      function openGallery(element) {
+        const title = element.getAttribute("data-title");
+        const desc = element.getAttribute("data-desc");
+        const galleryData = element.getAttribute("data-gallery");
 
-            modalTitle.innerText = title;
-            modalDesc.innerHTML = desc;
+        modalTitle.innerText = title;
+        modalDesc.innerHTML = desc;
 
-            // Parse gallery data
-            try {
-                currentGallery = JSON.parse(galleryData) || [];
-            } catch (e) {
-                console.error("Error parsing gallery data", e);
-                currentGallery = [];
-            }
-
-            currentSlideIndex = 0;
-            renderCarousel();
-
-            modal.style.display = "flex";
-            document.body.style.overflow = "hidden";
+        // Parse gallery data
+        try {
+          currentGallery = JSON.parse(galleryData) || [];
+        } catch (e) {
+          console.error("Error parsing gallery data", e);
+          currentGallery = [];
         }
 
-        function renderCarousel() {
-            modalMediaContainer.innerHTML = '';
+        currentSlideIndex = 0;
+        renderCarousel();
 
-            if (currentGallery.length === 0) {
-                modalMediaContainer.innerHTML = '<div style="color:white; display:flex; align-items:center; justify-content:center; height:100%;">No media available</div>';
-                return;
-            }
+        modal.style.display = "flex";
+        document.body.style.overflow = "hidden";
+      }
 
-            // Carousel Container
-            const carouselContainer = document.createElement('div');
-            carouselContainer.className = 'carousel-container';
+      function renderCarousel() {
+        modalMediaContainer.innerHTML = "";
 
-            // Slides
-            currentGallery.forEach((item, index) => {
-                let slide;
-
-                // Check if item is an object (iframe) or string (image)
-                if (typeof item === 'object' && item.type === 'iframe') {
-                    slide = document.createElement('iframe');
-                    slide.src = item.src;
-                    if (item.id) slide.id = item.id;
-                    if (item.name) slide.name = item.name;
-                    slide.frameBorder = "0";
-                    slide.width = "100%";
-                    slide.height = "100%";
-                    slide.scrolling = "no";
-                    slide.allow = "vr; xr; accelerometer; gyroscope; autoplay; fullscreen";
-                    slide.setAttribute('allowFullScreen', 'true');
-                    slide.setAttribute('webkitallowfullscreen', 'true');
-                    slide.setAttribute('mozallowfullscreen', 'true');
-                    slide.className = index === 0 ? 'carousel-slide active' : 'carousel-slide';
-                } else {
-                    slide = document.createElement('img');
-                    slide.src = typeof item === 'string' ? item : item.src;
-                    slide.className = index === 0 ? 'carousel-slide active' : 'carousel-slide';
-                    slide.alt = `Slide ${index + 1}`;
-                    slide.style.objectFit = "contain";
-                }
-
-                carouselContainer.appendChild(slide);
-            });
-
-            // Controls (only if more than 1 image)
-            if (currentGallery.length > 1) {
-                const prevBtn = document.createElement('button');
-                prevBtn.className = 'carousel-btn prev-btn';
-                prevBtn.innerHTML = '&#10094;';
-                prevBtn.onclick = (e) => { e.stopPropagation(); changeSlide(-1); };
-
-                const nextBtn = document.createElement('button');
-                nextBtn.className = 'carousel-btn next-btn';
-                nextBtn.innerHTML = '&#10095;';
-                nextBtn.onclick = (e) => { e.stopPropagation(); changeSlide(1); };
-
-                carouselContainer.appendChild(prevBtn);
-                carouselContainer.appendChild(nextBtn);
-
-                // Indicators
-                const indicators = document.createElement('div');
-                indicators.className = 'carousel-indicators';
-                currentGallery.forEach((_, index) => {
-                    const dot = document.createElement('div');
-                    dot.className = index === 0 ? 'indicator active' : 'indicator';
-                    dot.onclick = (e) => { e.stopPropagation(); goToSlide(index); };
-                    indicators.appendChild(dot);
-                });
-                carouselContainer.appendChild(indicators);
-            }
-
-            modalMediaContainer.appendChild(carouselContainer);
+        if (currentGallery.length === 0) {
+          modalMediaContainer.innerHTML =
+            '<div style="color:white; display:flex; align-items:center; justify-content:center; height:100%;">No media available</div>';
+          return;
         }
 
-        function changeSlide(direction) {
-            const slides = document.getElementsByClassName('carousel-slide');
-            const dots = document.getElementsByClassName('indicator');
+        // Carousel Container
+        const carouselContainer = document.createElement("div");
+        carouselContainer.className = "carousel-container";
 
-            if (!slides.length) return;
+        // Slides
+        currentGallery.forEach((item, index) => {
+          let slide;
 
-            slides[currentSlideIndex].classList.remove('active');
-            if (dots.length > 0) dots[currentSlideIndex].classList.remove('active');
+          // Check if item is an object (iframe) or string (image)
+          if (typeof item === "object" && item.type === "iframe") {
+            slide = document.createElement("iframe");
+            slide.src = item.src;
+            if (item.id) slide.id = item.id;
+            if (item.name) slide.name = item.name;
+            slide.frameBorder = "0";
+            slide.width = "100%";
+            slide.height = "100%";
+            slide.scrolling = "no";
+            slide.allow =
+              "vr; xr; accelerometer; gyroscope; autoplay; fullscreen";
+            slide.setAttribute("allowFullScreen", "true");
+            slide.setAttribute("webkitallowfullscreen", "true");
+            slide.setAttribute("mozallowfullscreen", "true");
+            slide.className =
+              index === 0 ? "carousel-slide active" : "carousel-slide";
+          } else {
+            slide = document.createElement("img");
+            slide.src = typeof item === "string" ? item : item.src;
+            slide.className =
+              index === 0 ? "carousel-slide active" : "carousel-slide";
+            slide.alt = `Slide ${index + 1}`;
+            slide.style.objectFit = "contain";
+          }
 
-            currentSlideIndex += direction;
-
-            if (currentSlideIndex >= slides.length) {
-                currentSlideIndex = 0;
-            } else if (currentSlideIndex < 0) {
-                currentSlideIndex = slides.length - 1;
-            }
-
-            slides[currentSlideIndex].classList.add('active');
-            if (dots.length > 0) dots[currentSlideIndex].classList.add('active');
-        }
-
-        function goToSlide(index) {
-            const slides = document.getElementsByClassName('carousel-slide');
-            const dots = document.getElementsByClassName('indicator');
-
-            if (!slides.length) return;
-
-            slides[currentSlideIndex].classList.remove('active');
-            if (dots.length > 0) dots[currentSlideIndex].classList.remove('active');
-
-            currentSlideIndex = index;
-
-            slides[currentSlideIndex].classList.add('active');
-            if (dots.length > 0) dots[currentSlideIndex].classList.add('active');
-        }
-
-        closeBtn.onclick = function () {
-            modal.style.display = "none";
-            document.body.style.overflow = "auto";
-            modalMediaContainer.innerHTML = ''; // Stop iframe video
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-                document.body.style.overflow = "auto";
-                modalMediaContainer.innerHTML = ''; // Stop iframe video
-            }
-        }
-
-        // Device Motion Script for VR (if needed)
-        var pano_iframe_name = "tour-embeded";
-        window.addEventListener("devicemotion", function (e) {
-            var iframe = document.getElementById(pano_iframe_name);
-            if (iframe) {
-                iframe.contentWindow.postMessage({
-                    type: "devicemotion",
-                    deviceMotionEvent: {
-                        acceleration: { x: e.acceleration.x, y: e.acceleration.y, z: e.acceleration.z },
-                        accelerationIncludingGravity: { x: e.accelerationIncludingGravity.x, y: e.accelerationIncludingGravity.y, z: e.accelerationIncludingGravity.z },
-                        rotationRate: { alpha: e.rotationRate.alpha, beta: e.rotationRate.beta, gamma: e.rotationRate.gamma },
-                        interval: e.interval,
-                        timeStamp: e.timeStamp
-                    }
-                }, "*");
-            }
+          carouselContainer.appendChild(slide);
         });
-    </script>
-</body>
 
+        // Controls (only if more than 1 image)
+        if (currentGallery.length > 1) {
+          const prevBtn = document.createElement("button");
+          prevBtn.className = "carousel-btn prev-btn";
+          prevBtn.innerHTML = "&#10094;";
+          prevBtn.onclick = (e) => {
+            e.stopPropagation();
+            changeSlide(-1);
+          };
+
+          const nextBtn = document.createElement("button");
+          nextBtn.className = "carousel-btn next-btn";
+          nextBtn.innerHTML = "&#10095;";
+          nextBtn.onclick = (e) => {
+            e.stopPropagation();
+            changeSlide(1);
+          };
+
+          carouselContainer.appendChild(prevBtn);
+          carouselContainer.appendChild(nextBtn);
+
+          // Indicators
+          const indicators = document.createElement("div");
+          indicators.className = "carousel-indicators";
+          currentGallery.forEach((_, index) => {
+            const dot = document.createElement("div");
+            dot.className = index === 0 ? "indicator active" : "indicator";
+            dot.onclick = (e) => {
+              e.stopPropagation();
+              goToSlide(index);
+            };
+            indicators.appendChild(dot);
+          });
+          carouselContainer.appendChild(indicators);
+        }
+
+        modalMediaContainer.appendChild(carouselContainer);
+      }
+
+      function changeSlide(direction) {
+        const slides = document.getElementsByClassName("carousel-slide");
+        const dots = document.getElementsByClassName("indicator");
+
+        if (!slides.length) return;
+
+        slides[currentSlideIndex].classList.remove("active");
+        if (dots.length > 0) dots[currentSlideIndex].classList.remove("active");
+
+        currentSlideIndex += direction;
+
+        if (currentSlideIndex >= slides.length) {
+          currentSlideIndex = 0;
+        } else if (currentSlideIndex < 0) {
+          currentSlideIndex = slides.length - 1;
+        }
+
+        slides[currentSlideIndex].classList.add("active");
+        if (dots.length > 0) dots[currentSlideIndex].classList.add("active");
+      }
+
+      function goToSlide(index) {
+        const slides = document.getElementsByClassName("carousel-slide");
+        const dots = document.getElementsByClassName("indicator");
+
+        if (!slides.length) return;
+
+        slides[currentSlideIndex].classList.remove("active");
+        if (dots.length > 0) dots[currentSlideIndex].classList.remove("active");
+
+        currentSlideIndex = index;
+
+        slides[currentSlideIndex].classList.add("active");
+        if (dots.length > 0) dots[currentSlideIndex].classList.add("active");
+      }
+
+      closeBtn.onclick = function () {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+        modalMediaContainer.innerHTML = ""; // Stop iframe video
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+          modalMediaContainer.innerHTML = ""; // Stop iframe video
+        }
+      };
+
+      // Device Motion Script for VR (if needed)
+      var pano_iframe_name = "tour-embeded";
+      window.addEventListener("devicemotion", function (e) {
+        var iframe = document.getElementById(pano_iframe_name);
+        if (iframe) {
+          iframe.contentWindow.postMessage(
+            {
+              type: "devicemotion",
+              deviceMotionEvent: {
+                acceleration: {
+                  x: e.acceleration.x,
+                  y: e.acceleration.y,
+                  z: e.acceleration.z,
+                },
+                accelerationIncludingGravity: {
+                  x: e.accelerationIncludingGravity.x,
+                  y: e.accelerationIncludingGravity.y,
+                  z: e.accelerationIncludingGravity.z,
+                },
+                rotationRate: {
+                  alpha: e.rotationRate.alpha,
+                  beta: e.rotationRate.beta,
+                  gamma: e.rotationRate.gamma,
+                },
+                interval: e.interval,
+                timeStamp: e.timeStamp,
+              },
+            },
+            "*",
+          );
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -4,19 +4,21 @@
 
 :root {
   /* --- Colors --- */
-  --color-bg-body: #FFFFFF;
-  --color-bg-alt: #F5F5F7;
-  --color-text-main: #1D1D1F;
-  --color-text-secondary: #86868B;
-  --color-accent: #0066CC;
+  --color-bg-body: #ffffff;
+  --color-bg-alt: #f5f5f7;
+  --color-text-main: #1d1d1f;
+  --color-text-secondary: #86868b;
+  --color-accent: #0066cc;
   --color-accent-hover: #004499;
-  --color-border: #D2D2D7;
-  --color-white: #FFFFFF;
+  --color-border: #d2d2d7;
+  --color-white: #ffffff;
   --color-black: #000000;
 
   /* --- Typography --- */
-  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --font-heading: 'Inter', sans-serif;
+  --font-main:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-heading: "Inter", sans-serif;
   /* Setup for potential different heading font */
 
   /* --- Spacing --- */
@@ -365,7 +367,9 @@ p {
   padding: var(--spacing-xl);
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: var(--shadow-sm);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .card:hover {
@@ -457,7 +461,9 @@ p {
   border-radius: var(--radius-md);
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: var(--shadow-sm);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .value-prop-card:hover {
@@ -481,7 +487,9 @@ p {
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
 }
 
 .fade-in.visible {
@@ -562,7 +570,9 @@ p {
   font-size: 28px;
   line-height: 1;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: -48px;
